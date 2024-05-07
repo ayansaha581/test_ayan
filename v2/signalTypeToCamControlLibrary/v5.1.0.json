@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "version": "v5.1.0",
+        "dateGenerated": "2024-05-07 12:30:08.254588",
+        "description": "This document contains the signal type to FAIR CAM control mapping"
+    },
+    "mapping": [
+        {
+            "signalType": "waf",
+            "camControl": "WAF"
+        },
+        {
+            "signalType": "edr",
+            "camControl": "EDR"
+        },
+        {
+            "signalType": "va",
+            "camControl": "SSW"
+        },
+        {
+            "signalType": "uba",
+            "camControl": "PEPL"
+        },
+        {
+            "signalType": "ca",
+            "camControl": "HAOS"
+        },
+        {
+            "signalType": "outsideIn",
+            "camControl": "TPRM"
+        },
+        {
+            "signalType": "finding",
+            "camControl": "HAC"
+        }
+    ]
+}
